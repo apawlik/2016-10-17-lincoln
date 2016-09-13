@@ -1,21 +1,21 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-carpentry: "FIXME"    # what kind of Carpentry (must be either "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: "FIXME"      # contact email address for host, lead instructor, or whoever else is handling questions
-etherpad:             # optional: URL for the workshop Etherpad if there is one
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+carpentry: "swc"    # what kind of Carpentry (must be either "dc" or "swc")
+venue: "Plant &amp; Food Research"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Lincoln"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "nz"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: "-43.640087,172.484249"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "Oct 17-18, 2016"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "10:00am - 4:30pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2016-10-17      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2016-10-18        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Aleksandra Pawlik"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["TBC"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: "training@nesi.org.nz"      # contact email address for host, lead instructor, or whoever else is handling questions
+etherpad:    http://pad.software-carpentry.org/2016-10-17-lincoln         # optional: URL for the workshop Etherpad if there is one
+eventbrite:   27692635418        # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
@@ -46,11 +46,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   scrolling="auto">
 </iframe>
 {% endif %}
-
-<h4>This is the workshop template.  Use it to create your own website.
-Delete this line and email the link to your workshop page to admin@software-carpentry.org.
-If this is a self organized workshop, please be sure to include any other details
-Software Carpentry staff may need to know in your email.</h4>
 
 
 <h2 id="general">General Information</h2>
@@ -87,7 +82,7 @@ Software Carpentry staff may need to know in your email.</h4>
 -->
 <p id="who">
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
+  The course is aimed all researchers at NZ research organisations, including CRIs and Universities.
   <strong>You don't need to have any previous knowledge of the tools that will
     be presented at the workshop.</strong>
 </p>
@@ -182,23 +177,29 @@ Software Carpentry staff may need to know in your email.</h4>
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
+      <tr> <td>09:30</td>  <td>Setup help - please attend if you need help setting up your laptop</td> </tr>
+      <tr> <td>10:00</td>  <td>Automating tasks with the Unix shell - part 1</td> </tr>
+      <tr> <td>11:00</td> <td>Break</td> </tr>
+      <tr> <td>11:15</td> <td>Automating tasks with the Unix Shell - part 2</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>13:00</td>  <td>Building programs with R - part 1</td> </tr>
+      <tr> <td>14:30</td>  <td>Break</td> </tr>
+      <tr> <td>15:00</td>  <td>Building programs with R - part 2</td> </tr>
+      <tr> <td>16:30</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>10:15</td>  <td>Version control with Git - part 1</td> </tr>
+      <tr> <td>11:00</td>  <td>Break</td> </tr>
+      <tr> <td>10:15</td>  <td>Version control with Git - part 2</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>13:00</td>  <td>Collaborating using Git and GitHub</td> </tr>
+      <tr> <td>14:00</td>  <td>Managing data with R - part 1</td> </tr>
+      <tr> <td>14:30</td>  <td>Break</td> </tr>
+      <tr> <td>15:00</td>  <td>Managing data with R - part 2</td> </tr>
+      <tr> <td>16:30</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
 </div>
